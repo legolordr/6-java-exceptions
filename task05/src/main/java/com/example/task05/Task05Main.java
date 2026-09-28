@@ -13,10 +13,10 @@ public class Task05Main {
         System.out.println(s);
         }
         catch (FileNotFoundException ex){
-            System.out.println(String.format("файл \"%s\" не найден ",pathToFile));
+            System.out.print(String.format("файл %s не найден",pathToFile));
         }
         catch (IOException ex){
-            System.out.println(String.format("произошла ошибка при чтении файла %s",pathToFile));
+            System.out.print(String.format("произошла ошибка при чтении файла %s",pathToFile));
         }
     }
 
